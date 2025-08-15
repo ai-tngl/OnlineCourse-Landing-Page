@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset+"UTF-8">
+        <meta nameviewpoint content="width=device-witdth, initial-scale=1.0">
+        <title>Online Course Landing Page</title>
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border:1px solid #c98fb6;
+                text-align: center;
+                padding: 8px;
+            }
+            tr:nth-child(even) {
+                background-color: #be769add;
+            }
+        </style>
+    </head>
+
+        <header>
+            <h1>Mastering Web Dev&#128187;</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="intro">
+            <h2>Welcome to Mastering Web Development!</h2>
+            <p>
+                Your journey to becoming a web development experts starts here &starf; &#10003;
+            </p>
+            <iframe
+                src="https://www.youtube.com/embed/watch?v=TG6XSFeOT3g"
+                title="How to Master Web Development"
+                width="300"
+                height="150"
+            ></iframe>
+
+        <section id="curriculum">
+           <h2>Course Curriculum</h2>
+            <table>
+                <caption>&#8659;<strong>Course Outline</strong>&#8659;</caption>
+                <thead>
+                    <tr>
+                        <th>Module</th>
+                        <th>Topics</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML Basics</td>
+                        <td>Introduction to HTML and its elements</td>
+                        <td>2&ndash;4 hours</td>
+                    </tr>
+                    <tr>
+                        <td>CSS Fundamentals</td>
+                        <td>Styling web pages with CSS</td>
+                        <td>3&ndash;5 hours</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript Essentials</td>
+                        <td>Understanding JavaScript</td>
+                        <td>4&ndash;6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>Python for Web</td>
+                        <td>Using python for web development</td>
+                        <td>5&ndash;7 hours</td>
+                    </tr>
+                    <tr>
+                        <td>Web Frameworks</td>
+                        <td>Exploring popular web frameworks</td>
+                        <td>6&ndash;8 hours</td>
+                    </tr>
+                    <tr>
+                        <td>Database Integration</td>
+                        <td>Connectung Web applications to databases</td>
+                        <td>4&ndash;6 hours</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+
+        <section id="instructors">
+            <h2><abbr title="Professor">Prof.</abbr> Kurt Vincent Timajo</h2>
+
+            <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t39.30808-6/505590482_10000632746679800_5466325206684192048_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=b04a48&_nc_ohc=CuK1tNPdqh0Q7kNvwFlf5_r&_nc_oc=AdkOb6EcoRRGA1XQXgUF9_Gln-KJcjgbj849krCggvW5SeEcjOtBz5wI4MWzd3_kj8cCHrsbc-9hAnUClgBzfFvq&_nc_zt=23&_nc_ht=scontent.fcgy1-1.fna&_nc_gid=HwZfNCrkEWnfxnSrH8C17g&oh=00_AfWNjvwu3tv5SNZ2oo6qtkgep_5MEK2bKrsGoEjddUs_yw&oe=68A4A05D"
+                alt="Instructor Kurt Vincent Timajo"
+                style="width: 150px; height: 150px;"
+            >
+            <blockquote>
+               <p>
+                <em>"Kung kaya ng iba, edi wow!"</em> &#128526;
+               </p>
+            </blockquote>
+
+        <section id="register">
+            <h3>Register Now!</h3>
+            
+            <form>
+                <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
+                <input type="email" id="email" name="email" placeholder="Email address" required>  
+            </form>
+
+            <dropdown>
+                <select>
+                    <option value="select">Select Your Skill level</option>
+                    <option value="biginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </dropdown>
+
+          <p><strong>Prefered Learning Mode:</strong></p>
+                <input type="radio" id="self-paced" name="learning-mode" value="self-paced">
+                <label for="self-paced">Self-paced&#128186;</label>
+                <input type="radio" id="live-online" name="learning-mode" value="live-online">
+                <label for="live-online">Live Online&#128187;</label>
+                <input type="radio" id="hybrid" name="learning-mode" value="hybrid">
+                <label for="hybrid">Hybrid&#128209;</label>
+            <p>    
+                <checkbox>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions</label>
+                </checkbox>
+            </p>
+
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Any comments or questions?"></textarea>
+                <button type="submit">Enroll Now!&#128218;</button>
+        </section>
+        <hr>
+
+        <footer>
+            <p>&copy; 2025 Ailyn May Tongol</p>
+            <a href="mailto:ailynmaytongol231@gmail.com">Email Us&#128231;</a>
+        </footer>
+    
+        
